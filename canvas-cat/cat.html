@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvas! Canvas!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<style>
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    canvas {
+        border: 1px solid #080;
+    }
+</style>
+
+<div class="container">
+    <canvas id="canvas1" width="600" height="400">
+
+    </canvas>
+</div>
+</body>
+</html>
+<script>
+    window.onload = () => {
+        const canvas = document.getElementById('canvas1');
+        const ctx = canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.moveTo(160, 40);
+        ctx.lineTo(185, 50);
+        ctx.lineTo(235, 95);
+        ctx.lineTo(305, 95);
+        ctx.lineTo(360, 50);
+        ctx.lineTo(385, 40);
+        ctx.lineTo(390, 75);
+        ctx.lineTo(380, 115);
+        ctx.lineTo(390, 170);
+        ctx.lineTo(380, 225);
+        ctx.lineTo(320, 265);
+        ctx.lineTo(300, 285);
+        ctx.lineTo(270, 295);
+        ctx.lineTo(245, 285);
+        ctx.lineTo(225, 265);
+        ctx.lineTo(165, 225);
+        ctx.lineTo(150, 170);
+        ctx.lineTo(165, 115);
+        ctx.lineTo(155, 75);
+        ctx.lineTo(160, 40);
+        ctx.lineTo(220, 115);
+        ctx.lineTo(255, 245);
+        ctx.lineTo(270, 260);
+        ctx.lineTo(285, 245);
+        ctx.lineTo(325, 115);
+        ctx.lineTo(385, 40);
+        ctx.moveTo(325, 115);
+        ctx.lineTo(390, 75);
+        ctx.moveTo(325, 115);
+        ctx.lineTo(380, 115);
+        ctx.moveTo(220, 115);
+        ctx.lineTo(165, 115);
+        ctx.moveTo(220, 115);
+        ctx.lineTo(155, 75);
+        ctx.moveTo(270, 260);
+        ctx.lineTo(250, 275);
+        ctx.lineTo(225, 265);
+        ctx.lineTo(255, 245);
+        ctx.moveTo(270, 260);
+        ctx.lineTo(290, 270);
+        ctx.lineTo(320, 265);
+        ctx.lineTo(285, 245);
+        ctx.moveTo(255, 245);
+        ctx.lineTo(225, 240);
+        ctx.lineTo(175, 215);
+        ctx.lineTo(150, 170);
+        ctx.lineTo(225, 175);
+        ctx.lineTo(240, 190);
+        ctx.lineTo(244, 205);
+        ctx.lineTo(215, 200);
+        ctx.lineTo(202, 174);
+        ctx.moveTo(390, 170);
+        ctx.lineTo(370, 215);
+        ctx.lineTo(320, 240);
+        ctx.lineTo(285, 245);
+        ctx.moveTo(390, 170);
+        ctx.lineTo(317, 175);
+        ctx.lineTo(302, 190);
+        ctx.lineTo(297, 205);
+        ctx.lineTo(330, 198);
+        ctx.lineTo(340, 174);
+
+        ctx.stroke();
+    }
+</script>
